@@ -2,9 +2,10 @@ package main
 
 import (
 	"errors"
-	"github.com/gin-gonic/gin"
-	limiter "github.com/julianshen/gin-limiter"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	limiter "github.com/sinuxlee/gin-limiter"
 )
 
 func main() {
